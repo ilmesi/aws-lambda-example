@@ -15,6 +15,8 @@ https://serverlesscode.com/post/emulambda-testing-aws-lambda/
 
 Testing posts
 https://onsen.io/blog/mocha-chaijs-unit-test-coverage-es6/
+http://elijahmanor.com/unit-test-like-a-secret-agent-with-sinon-js/
+https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js
 
 Projects
 https://www.npmjs.com/package/lambda-local
@@ -26,5 +28,6 @@ https://github.com/adamrneary/adventr-lambda-video
 JS Testing
 https://github.com/karma-runner/karma/blob/master/thesis.pdf
 https://mochajs.org/
+http://sinonjs.org/
 http://chaijs.com/
 https://gotwarlost.github.io/istanbul/
