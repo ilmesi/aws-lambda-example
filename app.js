@@ -1,6 +1,6 @@
 var foo = require('lib/foo.js');
 
-exports.handler = (event, context, callback) => {
+exports.handler = (event, context) => {
     switch (event.method) {
         case "GET":
             foo.bar(context, event);
