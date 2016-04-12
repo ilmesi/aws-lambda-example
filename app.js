@@ -1,4 +1,4 @@
-var foo = require('lib/foo.js');
+var foo = require('./lib/foo');
 
 exports.handler = (event, context) => {
     switch (event.method) {
