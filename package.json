@@ -4,7 +4,7 @@
   "description": "Small example for AWS lambdas",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*test.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/ilmesi/aws-lambda-example#readme",
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
   },
   "dependencies": {
     "aws-sdk": "^2.3.3"
