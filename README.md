@@ -2,5 +2,5 @@
 
 ## AWS Lambda small example ##
 
-This is a **On-demand Lambda function invocation over HTTPS** example.
+This is an **On-demand Lambda function invocation over HTTPS** example.
 
