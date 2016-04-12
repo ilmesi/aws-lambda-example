@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ilmesi/aws-lambda-example/issues"
   },
-  "homepage": "https://github.com/ilmesi/aws-lambda-example#readme"
+  "homepage": "https://github.com/ilmesi/aws-lambda-example#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.3"
+  }
 }
