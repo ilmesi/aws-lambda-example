@@ -7,7 +7,8 @@ This is an **On-demand Lambda function invocation over HTTPS** example project w
 
 ## Resources ##
 
-AWS lambda posts
+AWS lambda stuff
+http://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 https://medium.com/@AdamRNeary/developing-and-testing-amazon-lambda-functions-e590fac85df4
 http://mikestokes.co/aws/2015/03/12/easy-testing-of-amazon-lambda-micro-services/
 https://serverlesscode.com/post/emulambda-testing-aws-lambda/
