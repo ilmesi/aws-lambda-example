@@ -1,9 +1,10 @@
-![enter image description here](https://pbs.twimg.com/profile_images/534938315338698753/Q4cA4Cqa.png)
+![lambda_logo](https://pbs.twimg.com/profile_images/534938315338698753/Q4cA4Cqa.png)
 
 ## AWS Lambda small example ##
 
 This is an **On-demand Lambda function invocation over HTTPS** example project with testing on it.
 
+![travis_status](https://travis-ci.org/ilmesi/aws-lambda-example.svg?branch=master)
 
 ## Resources ##
 
