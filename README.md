@@ -18,6 +18,7 @@ Testing posts
 * https://onsen.io/blog/mocha-chaijs-unit-test-coverage-es6/
 * http://elijahmanor.com/unit-test-like-a-secret-agent-with-sinon-js/
 * https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js
+* http://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs
 
 Projects
 * https://www.npmjs.com/package/lambda-local
