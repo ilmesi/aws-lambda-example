@@ -1,9 +1,10 @@
-![enter image description here](https://pbs.twimg.com/profile_images/534938315338698753/Q4cA4Cqa.png)
+![lambda_logo](https://pbs.twimg.com/profile_images/534938315338698753/Q4cA4Cqa.png)
 
 ## AWS Lambda small example ##
 
 This is an **On-demand Lambda function invocation over HTTPS** example project with testing on it.
 
+![travis_status](https://travis-ci.org/ilmesi/aws-lambda-example.svg?branch=master)
 
 ## Resources ##
 
@@ -17,6 +18,7 @@ Testing posts
 * https://onsen.io/blog/mocha-chaijs-unit-test-coverage-es6/
 * http://elijahmanor.com/unit-test-like-a-secret-agent-with-sinon-js/
 * https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js
+* http://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs
 
 Projects
 * https://www.npmjs.com/package/lambda-local
