@@ -27,6 +27,7 @@
     "sinon": "^1.17.3"
   },
   "dependencies": {
-    "aws-sdk": "^2.3.3"
+    "aws-sdk": "^2.3.3",
+    "rsvp": "^3.2.1"
   }
 }
