@@ -82,5 +82,15 @@ describe('Expected events', function () {
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
   });
+  
+    it('should fail when "event.method" is not a HTTP verb', function () {
+    // Prepare
+    postEvent.method = "NOTAVERB";
+    // Call
+    app.handler(postEvent, postContext);
+    // Assert
+    sinon.assert.calledOnce(fail_spy);
+    sinon.assert.notCalled(succeed_spy);
+  });
 
 });
