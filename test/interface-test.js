@@ -92,5 +92,15 @@ describe('Expected events', function () {
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
   });
+  
+    it('should fail when "event.size" is undefined', function () {
+    // Prepare
+    postEvent.method = "GET";
+    // Call
+    app.handler(postEvent, postContext);
+    // Assert
+    sinon.assert.calledOnce(fail_spy);
+    sinon.assert.notCalled(succeed_spy);
+  });
 
 });
