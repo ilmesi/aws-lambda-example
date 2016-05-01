@@ -7,7 +7,9 @@ describe('Expected events', function () {
 
   before(function() {
     postContext = {
-      fail: function(msg) {},
+      fail: function(msg) {
+        throw new Error(msg);
+      },
       succeed: function(msg) {}
     };
   });
