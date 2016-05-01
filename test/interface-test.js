@@ -1,5 +1,8 @@
 var sinon = require('sinon');
+var chai = require('chai');
+var expect = chai.expect;
 var app = require('../app');
+
 
 describe('Expected events', function () {
   var postContext, postEvent = {};
@@ -29,7 +32,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "POST";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -39,7 +44,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "PUT";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -49,7 +56,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "HEAD";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -59,7 +68,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "PATCH";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -69,7 +80,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "DELETE";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -79,7 +92,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "OPTIONS";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -89,7 +104,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "NOTAVERB";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
@@ -99,7 +116,9 @@ describe('Expected events', function () {
     // Prepare
     postEvent.method = "GET";
     // Call
-    app.handler(postEvent, postContext);
+    expect(function () {
+      app.handler(postEvent, postContext); 
+    }).to.throw();  
     // Assert
     sinon.assert.calledOnce(fail_spy);
     sinon.assert.notCalled(succeed_spy);
