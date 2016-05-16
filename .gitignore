@@ -1,6 +1,7 @@
 # Project related
 .idea/
 .DS_Store
+mochawesome-reports
 
 # Logs
 logs
