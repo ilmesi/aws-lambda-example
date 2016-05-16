@@ -34,7 +34,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
 
   it('should fail when a PUT request occurs', function () {
@@ -43,7 +43,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
 
   it('should fail when a HEAD request occurs', function () {
@@ -52,7 +52,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
 
   it('should fail when a PATCH request occurs', function () {
@@ -61,7 +61,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
 
   it('should fail when a DELETE request occurs', function () {
@@ -70,7 +70,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
 
   it('should fail when a OPTIONS request occurs', function () {
@@ -79,7 +79,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
   
   it('should fail when "event.method" is not a HTTP verb', function () {
@@ -88,7 +88,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Unsuported method');
   });
   
   it('should fail when "event.size" is undefined', function () {
@@ -97,7 +97,7 @@ describe('Expected events', function () {
     // Call & Assert
     expect(function () {
       app.handler(postEvent, postContext); 
-    }).to.throw();
+    }).to.throw('Missing parameter: size');
   });
 
 });
