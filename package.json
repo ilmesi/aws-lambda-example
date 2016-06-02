@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ilmesi/aws-lambda-example#readme",
   "devDependencies": {
+    "aws-lambda-mock-context": "^3.0.0",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "mochawesome": "^1.3.4",
