@@ -39,3 +39,7 @@ node_modules
 
 # VSCode
 .vscode*
+
+# Dist folder and file
+dist
+dist.zip
